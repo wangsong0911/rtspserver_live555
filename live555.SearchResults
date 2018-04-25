@@ -1,0 +1,12 @@
+---- incomingconnectionhandler Matches (11 in 2 files) ----
+GenericMediaServer.cpp (live\livemedia):  env.taskScheduler().turnOnBackgroundReadHandling(fServerSocket, incomingConnectionHandler, this);
+GenericMediaServer.cpp (live\livemedia):void GenericMediaServer::incomingConnectionHandler(void* instance, int /*mask*/) {
+GenericMediaServer.cpp (live\livemedia):  server->incomingConnectionHandler();
+GenericMediaServer.cpp (live\livemedia):void GenericMediaServer::incomingConnectionHandler() {
+GenericMediaServer.cpp (live\livemedia):  incomingConnectionHandlerOnSocket(fServerSocket);
+GenericMediaServer.cpp (live\livemedia):void GenericMediaServer::incomingConnectionHandlerOnSocket(int serverSocket) {
+RTSPServer.cpp (live\livemedia):							 incomingConnectionHandlerHTTP, this);
+RTSPServer.cpp (live\livemedia):void RTSPServer::incomingConnectionHandlerHTTP(void* instance, int /*mask*/) {
+RTSPServer.cpp (live\livemedia):  server->incomingConnectionHandlerHTTP();
+RTSPServer.cpp (live\livemedia):void RTSPServer::incomingConnectionHandlerHTTP() {
+RTSPServer.cpp (live\livemedia):  incomingConnectionHandlerOnSocket(fHTTPServerSocket);
